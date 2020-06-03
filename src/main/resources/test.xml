@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Maven Suite">
+
+  <test name="Test Exmaple 1">
+      <packages>
+      	<package name= "com.qa.test.*"></package>	
+      </packages>
+  </test> <!-- Test --> 
+   
+
+  
+</suite> <!-- Suite -->
+
+<!-- Need to add  3 plugins : compiler , surefire and resource plugin .-->
